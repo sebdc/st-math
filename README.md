@@ -19,7 +19,7 @@ Note: It takes a minute or two for the web application to boot
 [https://www.youtube.com/watch?v=0xSfpfYXP5k](https://www.youtube.com/watch?v=0xSfpfYXP5k)
 
 # Documentation (DLSU Email Restricted)
-[Google Docs](https://docs.google.com/document/d/1COS9jfEIt-hJ1F2n2ZHQo_CzCjAbVJH1HkEAXvz0gf4/edit?usp=sharing)
+[ST-MATH_S16_G4_Documentation - Google Document](https://docs.google.com/document/d/1COS9jfEIt-hJ1F2n2ZHQo_CzCjAbVJH1HkEAXvz0gf4/edit?usp=sharing)
 
 # Screenshots
 <img src = "https://cdn.discordapp.com/attachments/1179818614786887791/1180497521496313937/Screenshot1.png" width = 864 height = 467>
