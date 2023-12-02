@@ -1,8 +1,11 @@
 ## ST-MATH S16 - Group 4
 # Numerical Integration Method - Midpoint Rule
 Dela Cruz, Sebastien Michael V.
+
 Santamaria, Brian Joseph P.
+
 Tiu, Lance Wilem G.
+
 Wang, Vince Ryan S.
 
 # Description
