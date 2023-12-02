@@ -13,7 +13,8 @@ Wang, Vince Ryan S.
 
 # Link to Web Application 
 [https://st-math-s16-g4.onrender.com/](https://st-math-s16-g4.onrender.com/)
-Note: It takes a minute or two for the web application to boot
+
+Note: It takes a while for the web application to boot
 
 # Video Demonstration
 [https://www.youtube.com/watch?v=0xSfpfYXP5k](https://www.youtube.com/watch?v=0xSfpfYXP5k)
