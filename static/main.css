@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'Gotham Medium';
+    src: url("GothamMedium.ttf"); 
+}
+
+body {
+    background-color: #1c1a1a;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    color: white;
+    font-family: 'Gotham Medium';
+    font-size: 0.8em;
+}
+
+input, span, select, option {
+    font-size: 0.9em;
+    user-select: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+br {
+    user-select: none;
+}
+
+div.main-container {
+    width: 100%;
+    display: flex;
+    margin: 10vh;
+    justify-content: center;
+}
+
+/***********************************************
+                       Menu         
+***********************************************/
+div.left-section {
+    width: 285px;
+    margin: 10px;
+}
+
+div.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+div.title {
+    margin-bottom: 10px;
+    text-shadow: 0px 0px 10px 5px black;
+}
+
+label.title {
+    margin: 0;
+    font-size: 2em;
+    user-select: none;
+}
+
+div.menu-button-container {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: #303030;
+}
+
+div.label-box {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 50px;
+    height: 40px;
+    border: 3px solid white;
+    user-select: none;
+    font-size: 0.83em;
+}
+
+div.menu-button {
+    border: solid 3px #FFFFFF;
+    font-size: 0.9em;
+    padding: 10px;
+    width: 270px;
+    user-select: none;
+    text-align: center;
+}
+
+div.menu-button-2 {
+    border: solid 3px #FFFFFF;
+    border-left: none;
+    font-size: 0.9em;
+    padding: 10px;
+    width: 230px;
+    user-select: none;
+}
+
+div.menu-button-container:hover {
+    background-color: #1c1a1a;
+    border-color: #27bb9d;
+    transition: 0.3s;
+    box-shadow: 0px 0px 2px 2px #27bb9d;
+}
+
+div.menu-button-container:hover .label-box,
+div.menu-button-container:hover .input-box,
+div.menu-button-container:hover .menu-button,
+div.menu-button-container:hover .menu-button-2 {
+    border-color: #27bb9d;
+    transition: 0.3s;
+    color: #27bb9d
+}
+
+div.menu-button-container:not(:hover),
+div.menu-button-container:not(:hover) .label-box,
+div.menu-button-container:not(:hover) .input-box,
+div.menu-button-container:not(:hover) .menu-button,
+div.menu-button-container:not(:hover) .menu-button-2 {
+    transition: 0.6s;
+}
+
+/***********************************************
+                 Feedback Buttons        
+***********************************************/
+div.feedback-container {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: #303030;
+}
+
+#feedback-box {
+    display: none;
+    border: solid 3px #f94d4d;
+    color: #f94d4d;
+    font-size: 0.9em;
+    padding: 10px;
+    width: 270px;
+    user-select: none;
+    text-align: center;
+}
+
+/***********************************************
+                 Input Buttons        
+***********************************************/
+.input-box {
+    width: 200.5px;
+    color: #FFFFFF;
+    font-size: 0.83em;
+    font-family: 'Gotham Medium';
+    background-color: transparent;
+    border: none;
+}
+
+/***********************************************
+                Graph Container        
+***********************************************/
+div.mid-section {
+    width: 723px;
+    margin: 10px;
+}
+
+#graph-container {
+    width: 100%;
+    height: 600px;
+    border: solid 3px #FFFFFF;
+    background: no-repeat center center;
+    background-size: stretch;
+}
+
+/***********************************************
+                Graph Container        
+***********************************************/
+#format-container {
+    width: 100%;
+    height: 253px;
+    border: solid 3px #FFFFFF;
+    background: no-repeat center center;
+    background-size: stretch;
+}
