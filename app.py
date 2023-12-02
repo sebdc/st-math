@@ -43,9 +43,12 @@ def calculate():
 
         print( f"f = {f}\n a = {a}\n, b = {b}\n, n = {n}\n" )
         midpoint = MidPoint(f,a,b,n)
-        midpoint.calculateAndPlot()
+        midpoint.calculateAndPlot(); 
 
-        return({ "message": "success"}), 200
+        approximate = float(midpoint.midpointRule())
+        response = { "approximate": approximate }
+
+        return jsonify(response), 200
     except( KeyError, ValueError) as e:
         return jsonify({ "error": f"Invalid input data; {str(e)}"}), 400
 

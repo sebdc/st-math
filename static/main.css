@@ -58,6 +58,13 @@ label.title {
     user-select: none;
 }
 
+label.sub-title {
+    margin: 0;
+    color: gray;
+    font-size: 1.2em;
+    user-select: none;
+}
+
 div.menu-button-container {
     margin-bottom: 10px;
     display: flex;

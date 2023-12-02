@@ -12,6 +12,9 @@ const calculateButton = document.getElementById('calculate-button');
 const feedbackBox = document.getElementById('feedback-box');
 const graphContainer = document.getElementById('graph-container');
 
+// - Output
+const approximateOutput = document.getElementById('approximate-output');
+
 /***********************************************
                     VARIABLES                   
 ***********************************************/
@@ -56,15 +59,18 @@ calculateButton.addEventListener( 'click', async function() {
         if( response.status !== 200 ) {
             feedbackBox.style.display = 'block';
             feedbackBox.textContent = 'Invalid Input: f(x)';
-            
             return; // - Fetch failed
         }
 
         if( response.status === 500 ) {
             feedbackBox.style.display = 'block';
-            feedbackBox.textContent = 'MatplotLib Error';
+            feedbackBox.textContent = 'MatPlotLib Error';
             return; // - Fetch failed
         }
+
+        const parsedResponse = await response.json();
+        const approximate = parsedResponse.approximate;
+        approximateOutput.textContent = `${approximate}`;
 
         feedbackBox.style.display = 'none';
         const timestamp = new Date().getTime();
