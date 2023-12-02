@@ -11,7 +11,7 @@ Tiu, Lance Wilem G.
 
 Wang, Vince Ryan S.
 
-# Link to App
+# Link to Web Application
 [https://st-math-s16-g4.onrender.com/](https://st-math-s16-g4.onrender.com/)
 
 # Video Demonstration
