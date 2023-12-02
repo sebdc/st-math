@@ -9,9 +9,6 @@ A Python application deployed that calculates definite integrals using the midpo
 # Video Demonstration
 [insert link here]
 
-# Video Demonstration
-[insert link here]
-
 # Screenshots
 <img src = "https://cdn.discordapp.com/attachments/1179818614786887791/1180497521496313937/Screenshot1.png" width = 864 height = 467>
 <img src = "https://cdn.discordapp.com/attachments/1179818614786887791/1180497529972998264/Screenshot2.png" width = 864 height = 467>
