@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <title> ST-MATH Project </title>
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "{{ url_for('static', filename='main.css')}}">
+    <script src = "{{ url_for('static', filename='main.js')}}" defer> </script>
+</head>
+<body>
+    <div class = "main-container"> 
+        <div class = "left-section"> 
+            <div class = "title">
+                <label class = "title"> Midpoint Rule </label>
+            </div>
+            <div class = "menu"> 
+                <div class = "feedback-container">
+                    <div id = "feedback-box">
+                        Missing Input!
+                    </div>
+                </div>
+                <div class = "menu-button-container">
+                    <div class = "label-box"> f(x) </div>
+                    <div class = "menu-button-2">
+                        <input type = "text" class = "input-box" id = "function-input" placeholder = "enter the expression">
+                    </div>
+                </div>
+                <div class = "menu-button-container">
+                    <div class = "label-box"> a </div>
+                    <div class = "menu-button-2">
+                        <input type = "number" class = "input-box" id = "lower-bound-input" placeholder = "enter the lower bound">
+                    </div>
+                </div>
+                <div class = "menu-button-container">
+                    <div class = "label-box"> b </div>
+                    <div class = "menu-button-2">
+                        <input type = "number" class = "input-box" id = "upper-bound-input" placeholder = "enter the upper bound">
+                    </div>
+                </div>
+                <div class = "menu-button-container">
+                    <div class = "label-box"> n </div>
+                    <div class = "menu-button-2">
+                        <input type = "number" class = "input-box" id = "sub-interval-input" placeholder = "enter number of subintervals">
+                    </div>
+                </div>
+                <div class = "menu-button-container">
+                    <div class = "menu-button" id = "calculate-button">
+                        Calculate
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <div class = "title">
+                <label class = "title"> f(x) Input Format </label>
+            </div>
+            <div id = "format-container"> </div>
+        </div>
+        <div class = "mid-section"> 
+            <div class = "title">
+                <label class = "title"> Graph </label>
+            </div>
+            <div id = "graph-container"> </div>
+        </div>
+    </div>
+</body>
+</html>
