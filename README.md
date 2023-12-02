@@ -15,7 +15,7 @@ Wang, Vince Ryan S.
 [https://st-math-s16-g4.onrender.com/](https://st-math-s16-g4.onrender.com/)
 
 # Video Demonstration
-[insert link here]
+[https://www.youtube.com/watch?v=0xSfpfYXP5k](https://www.youtube.com/watch?v=0xSfpfYXP5k)
 
 # Screenshots
 <img src = "https://cdn.discordapp.com/attachments/1179818614786887791/1180497521496313937/Screenshot1.png" width = 864 height = 467>
