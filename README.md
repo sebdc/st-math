@@ -1,6 +1,6 @@
 ## ST-MATH S16 - Group 4
 # Numerical Integration Method - Midpoint Rule
-A Python application deployed that calculates definite integrals using the midpoint rule. The app takes a user-provided mathematical expression, integration bounds, and the number of subintervals. It then numerically integrates the function using the midpoint rule algorithm and generates a visual representation of the function along with the midpoint rule approximation. The results are presented in a plot, and the application is designed to be accessible via a web interface.
+A Python application that calculates definite integrals using the midpoint rule. The app takes a user-provided mathematical expression, integration bounds, and the number of subintervals. It then numerically integrates the function using the midpoint rule algorithm and generates a visual representation of the function along with the midpoint rule approximation. The results are presented in a plot, and the application is designed to be accessible via a web interface.
 
 # Group Members
 Dela Cruz, Sebastien Michael V.
@@ -13,14 +13,7 @@ Wang, Vince Ryan S.
 
 # Link to Web Application 
 [https://st-math-s16-g4.onrender.com/](https://st-math-s16-g4.onrender.com/)
-
 Note: It takes a while for the web application to boot
-
-# Video Demonstration
-[https://www.youtube.com/watch?v=0xSfpfYXP5k](https://www.youtube.com/watch?v=0xSfpfYXP5k)
-
-# Documentation (DLSU Email Restricted)
-Google Docs: [ST-MATH_S16_G4_Documentation](https://docs.google.com/document/d/1COS9jfEIt-hJ1F2n2ZHQo_CzCjAbVJH1HkEAXvz0gf4/edit?usp=sharing)
 
 # Screenshots
 <img src = "https://cdn.discordapp.com/attachments/1179818614786887791/1180497521496313937/Screenshot1.png" width = 864 height = 467>
